@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body,#__next{
+  height:100%;
+}
+
+body{
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* prose styles for post content */
+.prose img{max-width:100%;height:auto}
