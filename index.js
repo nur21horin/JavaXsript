@@ -31,6 +31,30 @@ console.log(x);
 console.log(y);
 
 //ternary opearation
-let age=28;
+let age = 28;
 let text = age < 18 ? "Minor" : "Adult";
 console.log(text);
+
+switch (new Date().getDay()) {
+  case 6:
+    text = "Today is saturday";
+    break;
+  case 0:
+    text = "Today is sunday";
+    break;
+
+  case 1:
+    text = "Today is Monday";
+    break;
+  case 2:
+    text = "Today is Tuesday";
+    break;
+  case 3:
+    text = "Today is wednesday";
+    break;
+  case 4:
+    text = "Today is Thursday";
+    break;
+  default:
+    text = "Looking forward to the Weekend";
+}
