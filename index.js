@@ -64,3 +64,11 @@ while (i <= 5) {
   console.log(i);
   i++;
 }
+let j=0
+let text2=""
+do {
+  text2 += "Th number is " + j;
+  console.log(text2)
+  j++;
+}
+ while (j <= 10);
