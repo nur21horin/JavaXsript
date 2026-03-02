@@ -31,5 +31,6 @@ console.log(x);
 console.log(y);
 
 //ternary opearation
+let age=28;
 let text = age < 18 ? "Minor" : "Adult";
 console.log(text);
