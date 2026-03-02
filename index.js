@@ -1,4 +1,3 @@
 console.log("Hi")
-console.log("Hello")
-console.log("Nur MOhammod")
-//ajfjhakj
+console.log("Hello World")
+//Data types
