@@ -58,3 +58,9 @@ switch (new Date().getDay()) {
   default:
     text = "Looking forward to the Weekend";
 }
+
+let i = 1;
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
