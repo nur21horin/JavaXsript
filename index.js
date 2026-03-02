@@ -1,5 +1,5 @@
-console.log("Hi")
-console.log("Hello World")
+console.log("Hi");
+console.log("Hello World");
 //Data types
 /*
 1.string
@@ -10,20 +10,22 @@ console.log("Hello World")
 6.Null
 */
 
-let price=28
-console.log("Price type:"+typeof(price))
-let name="John"
-let isAvailable=true
-let person={
-    name:"John",
-    age:30
-}
-let x
-let y=null
-console.log(price)
-console.log(name)
-console.log(isAvailable)
-console.log(person)
-console.log(x)
-console.log(y)
-
+let price = 28;
+console.log("Price type:" + typeof price);
+let name = "John";
+console.log("Name type:" + typeof name);
+let isAvailable = true;
+console.log("isAvailable type:" + typeof isAvailable);
+let person = {
+  name: "John",
+  age: 30,
+};
+console.log("Type of person: " + typeof person);
+let x;
+let y = null;
+console.log(price);
+console.log(name);
+console.log(isAvailable);
+console.log(person);
+console.log(x);
+console.log(y);
